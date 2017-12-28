@@ -4,11 +4,11 @@ If you want to work with me, send to me message on the my email: **rob.sabirov@y
 
 ### Skills
 
-Qt/C++ - 5+ years professional experience of software development
+**Qt/C++** - 5+ years professional experience of software development
 
-Java - I spend my free time studying this programming language.
+**Java** - I spend my free time studying this programming language.
 
-Linux - I like Linux OS. I worked with Debian, CentOS, ArchLinux and other.
+**Linux** - I like Linux OS. I worked with Debian, CentOS, ArchLinux and other.
 
 I used next technologies:
 * MySQL

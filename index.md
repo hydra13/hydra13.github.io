@@ -8,7 +8,7 @@ If you want to work with me, send to me message on the my email: **rob.sabirov@y
 
 **Java** - I spend my free time studying this programming language.
 
-**Linux** - I like Linux OS. I worked with Debian, CentOS, ArchLinux and other.
+**Linux** - I like OS family. I worked with Debian, CentOS, ArchLinux and other.
 
 I used next technologies:
 * MySQL

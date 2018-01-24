@@ -37,4 +37,4 @@ I used next technologies:
 
 <a href="https://digitalbit.biz/?ref=Hydra13" target="_blank"><img src="https://digitalbit.biz/125x125.gif" width="125" height="125" /></a>
 <a href="https://pretium.biz/?ref=Hydra13" target="_blank"><img src="https://pretium.biz/theme/demo12/assets/common/banners/ru/125x125.gif"></a>
-<a href="https://davor.io/Account/Registration?r=B02699" target="_blank"><img src="https://davor.io/resources/assets/images/dovar72logo.png"></a>
+<a href="https://davor.io/Account/Registration?r=B02699" target="_blank"><img src="https://davor.io/resources/assets/images/dovar72logo.png" style="height:125px;width=125px;background-color:white;"></a>

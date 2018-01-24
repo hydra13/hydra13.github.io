@@ -32,3 +32,8 @@ I used next technologies:
 ### Other
 
 [My notes](https://github.com/hydra13/Hydra13-Notes)
+
+### Money
+
+<a href=https://digitalbit.biz/?ref=Hydra13 target="_blank"><img src="https://digitalbit.biz/125x125.gif" width="125" height="125" /></a>
+<a href="https://pretium.biz/?ref=Hydra13" target="_blank"><img src="https://pretium.biz/theme/demo12/assets/common/banners/ru/125x125.gif"></a>

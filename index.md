@@ -36,6 +36,5 @@ I used next technologies:
 ### Money
 
 <a href="https://digitalbit.biz/?ref=Hydra13" target="_blank"><img src="https://digitalbit.biz/125x125.gif" style="height:125px;width=125px;background-color:white;border-radius:10px;"/></a>
-<a href="https://pretium.biz/?ref=Hydra13" target="_blank"><img src="https://pretium.biz/theme/demo12/assets/common/banners/ru/125x125.gif" style="border-radius:10px;"></a>
 <a href="https://davor.io/Account/Registration?r=B02699" target="_blank"><img src="https://davor.io/resources/assets/images/dovar72logo.png" style="height:125px;width=125px;background-color:white;border-radius:10px;"></a>
 <a href="https://bitcapitals.biz/?ref=Hydra13" target="_blank"><img src="https://bitcapitals.biz/125.gif" style="border-radius:10px;"></a>

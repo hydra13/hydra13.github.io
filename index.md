@@ -40,5 +40,4 @@ I used next technologies:
 
 ### Wallets:
 
-<a href="copyit('Li44UHxQY2Ek9Z6kEqePiYrpzhP7BRoMHi')">Li44UHxQY2Ek9Z6kEqePiYrpzhP7BRoMHi</a>
-LTC: Li44UHxQY2Ek9Z6kEqePiYrpzhP7BRoMHi <button class="btn" data-clipboard-text="Li44UHxQY2Ek9Z6kEqePiYrpzhP7BRoMHi">Copy</button>
+LTC: Li44UHxQY2Ek9Z6kEqePiYrpzhP7BRoMHi <button class="btn" data-clipboard-action="copy" data-clipboard-text="Li44UHxQY2Ek9Z6kEqePiYrpzhP7BRoMHi">Copy</button>

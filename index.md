@@ -33,7 +33,3 @@ I used next technologies:
 
 [My notes](https://github.com/hydra13/Hydra13-Notes)
 
-### Money
-
-<a href="https://digitalbit.biz/?ref=Hydra13" target="_blank"><img src="https://digitalbit.biz/125x125.gif" style="height:125px;width=125px;background-color:white;border-radius:10px;"/></a>
-<a href="https://davor.io/Account/Registration?r=B02699" target="_blank"><img src="https://davor.io/resources/assets/images/dovar72logo.png" style="height:125px;width=125px;background-color:white;border-radius:10px;"></a>

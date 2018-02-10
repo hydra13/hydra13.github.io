@@ -31,6 +31,7 @@ I used next technologies:
 ### Links
 
 [Python Examples](https://github.com/hydra13/PythonExamples)
+<button><a href="https://github.com/hydra13/PythonExamples">Python Examples</a></button>
 [My notes](https://github.com/hydra13/Hydra13-Notes)
 
 

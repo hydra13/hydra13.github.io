@@ -6,7 +6,7 @@ If you want to work with me, send to me message on my email: **rob.sabirov@yande
 
 **Qt/C++** - 5+ years professional experience of software development
 
-**Java** and **Python** - I study this programming language now.
+**Java** and **Python** - I study this programming languages now.
 
 **Linux** - I like OS family. I worked with Debian, CentOS, ArchLinux and other.
 
@@ -30,8 +30,7 @@ I used next technologies:
 
 ### Links
 
-[Python Examples](https://github.com/hydra13/PythonExamples)
-<button><a href="https://github.com/hydra13/PythonExamples">Python Examples</a></button>
-[My notes](https://github.com/hydra13/Hydra13-Notes)
+<a href="https://github.com/hydra13/PythonExamples" class="btn">Python Examples</a>
+<a href="https://github.com/hydra13/Hydra13-Notes" class="btn">My notes</a>
 
 

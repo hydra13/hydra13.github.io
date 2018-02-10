@@ -6,7 +6,7 @@ If you want to work with me, send to me message on the my email: **rob.sabirov@y
 
 **Qt/C++** - 5+ years professional experience of software development
 
-**Java** - I spend my free time studying this programming language.
+**Java** and **Python** - I study this programming language now.
 
 **Linux** - I like OS family. I worked with Debian, CentOS, ArchLinux and other.
 
@@ -16,7 +16,6 @@ I used next technologies:
 * PHP
 * HTML and CSS
 * C#
-* Python
 * Bash (Shell)
 * Mercurial
 * Git
@@ -29,7 +28,9 @@ I used next technologies:
 
 [Certifications from GeekBrains.com: Java Level 2](https://geekbrains.ru/certificates/209396.en)
 
-### Other
+### Links
 
+[Python Examples](https://github.com/hydra13/PythonExamples)
 [My notes](https://github.com/hydra13/Hydra13-Notes)
+
 

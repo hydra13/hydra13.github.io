@@ -29,9 +29,4 @@ I used next technologies:
 
 [Certifications from GeekBrains.com: Java Level 2](https://geekbrains.ru/certificates/209396.en)
 
-### Links
-
-<a href="https://github.com/hydra13/PythonExamples" class="btn">Python Examples</a>
-<a href="https://github.com/hydra13/Hydra13-Notes" class="btn">My notes</a>
-
 

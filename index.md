@@ -1,7 +1,7 @@
 ## Welcome to Sabirov Robert (Hydra13) Personal Page
 
-If you want to work with me then send to me message on my email: **rob.sabirov@yandex.ru**
-<br>Or my Telegram accaunt - **@hydra13**
+If you want to work with me, then send me a message to my email: **rob.sabirov@yandex.ru**
+<br>Or to my Telegram accaunt - **@hydra13**
 
 ### Skills
 

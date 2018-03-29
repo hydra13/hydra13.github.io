@@ -1,7 +1,7 @@
 ## Welcome to Sabirov Robert (Hydra13) Personal Page
 
-If you want to work with me, then send me a message to my email: **rob.sabirov@yandex.ru**
-<br>Or to my Telegram accaunt - **@hydra13**
+If you want to work with me, then you could send a message to me to my email: **rob.sabirov@yandex.ru**
+<br>Or could talk with me in Telegram - **@hydra13**
 
 ### Skills
 
@@ -9,7 +9,7 @@ If you want to work with me, then send me a message to my email: **rob.sabirov@y
 
 **Java** and **Python** - I study this programming languages now.
 
-**Linux** - I like OS family. I worked with Debian, CentOS, ArchLinux and other.
+**Linux** - I like this OS family. I worked with Debian, CentOS, ArchLinux and other Linux OS.
 
 I used next technologies:
 * MySQL

@@ -29,4 +29,8 @@ I used next technologies:
 
 [Certifications from GeekBrains.com: Java Level 2](https://geekbrains.ru/certificates/209396.en)
 
+[Certifications from GeekBrains.com: English Pre-Intermediate](https://geekbrains.ru/certificates/442494.en)
+
+[Certifications from SoloLearn.com: HTML Fundamentals course](https://www.sololearn.com/Certificate/1014-940200/pdf/)
+
 

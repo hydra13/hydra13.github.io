@@ -1,0 +1,27 @@
+.main {
+    display: block;
+    height: 700px;
+    background-color: bisque;
+}
+
+.menu {
+    display: inline-block;
+}
+
+.menu ul {
+    list-style-type: none;
+    display: inline;
+    float: left;
+    width: auto;
+}
+
+.menu ul li {
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+    background-color: darkgray;
+    border: 5px solid black;
+    border-radius: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+}

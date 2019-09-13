@@ -17,8 +17,8 @@ $.each(navMap, function (key, value) {
 // Filling Skills section
 let more3yrs = ['Qt/C++', 'Linux', 'ElasticSearch', 'Debian', 'Ubuntu'];
 let more1yrs = ['ArchLinux', 'Git', 'Mercurial', 'Java', 'Python', 'Bash (Shell Scripting)'];
-let less1yrsFavorite = ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'ReactJS'];
-let less1yrs = ['SQL', 'MySQL', 'MSSQL', 'PHP', 'C#', 'ASP.NET', 'ADO.NET'];
+let less1yrsFavorite = ['JavaScript', 'Vue/Vuex', 'React/Redux', 'Node.JS'];
+let less1yrs = ['HTML', 'CSS', 'SCSS', 'Bootstrap', 'Bulma', 'SQL', 'MySQL', 'MSSQL', 'MongoDB', 'PHP', 'WordPress','C#', 'ASP.NET', 'ADO.NET'];
 
 function fillSkillSection(arr, colorStyle, targetObject) {
     $.each(arr, function (index, value) {
@@ -34,6 +34,11 @@ fillSkillSection(less1yrs, 'secondary', '.less1yrs');
 
 // Filling Sertificates
 let sertsMap = {
+    'GeekBrains Node.js': 'https://geekbrains.ru/certificates/606915.en',
+    'GeekBrains JavaScript Level 1': 'https://geekbrains.ru/certificates/583940.en',
+    'GeekBrains JavaScript Level 2': 'https://geekbrains.ru/certificates/599663.en',
+    'GeekBrains HTML & CSS': 'https://geekbrains.ru/certificates/575097.en',
+    'GeekBrains HTML5 & CSS3. Advanced': 'https://geekbrains.ru/certificates/569244.en',
     'GeekBrains SQL': 'https://geekbrains.ru/certificates/184263.en',
     'GeekBrains Java Level 1': 'https://geekbrains.ru/certificates/188396.en',
     'GeekBrains Java Level 2': 'https://geekbrains.ru/certificates/209396.en',

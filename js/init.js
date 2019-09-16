@@ -2,7 +2,7 @@
 let navMap = {
     'About me': '#aboutme',
     'Skills': '#skills',
-    'Sertificates': '#sertificates',
+    'Certificates': '#certificates',
     'Contacts': '#contacts',
     'Download CV': './docs/CV R.Sabirov.pdf'
 }
@@ -32,7 +32,7 @@ fillSkillSection(more1yrs, 'info', '.more1yrs');
 fillSkillSection(less1yrsFavorite, 'warning', '.less1yrsFavorite');
 fillSkillSection(less1yrs, 'secondary', '.less1yrs');
 
-// Filling Sertificates
+// Filling Certificates
 let sertsMap = {
     'GeekBrains Node.js': 'https://geekbrains.ru/certificates/606915.en',
     'GeekBrains JavaScript Level 1': 'https://geekbrains.ru/certificates/583940.en',

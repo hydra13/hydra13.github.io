@@ -1,177 +1,369 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- <meta name="theme-color" content="#343a40"> -->
-
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-        crossorigin="anonymous">
-
-    <!-- My style -->
-    <link rel="stylesheet" href="css/style.css">
-
-    <title>R. Sabirov</title>
-
-    <!-- favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#343a40">
-    <meta name="msapplication-TileColor" content="#343a40">
-    <meta name="theme-color" content="#ffffff">
-
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
-        crossorigin="anonymous">
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132662434-1"></script>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+            name="description"
+            content="Robert Sabirov - Senior Go backend engineer with a full-stack past."
+        />
+        <title>Robert Sabirov - Senior Go Backend Engineer</title>
+        <link
+            rel="icon"
+            href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%231a1c1e'/%3E%3Ctext x='50%25' y='55%25' text-anchor='middle' font-family='monospace' font-size='25' font-weight='700' fill='%2383d17b'%3Ers%3C/text%3E%3C/svg%3E"
+        />
+        <link rel="stylesheet" href="./css/styles.css" />
+    </head>
+    <!-- Google tag (gtag.js) -->
+    <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-Z00DJP3K54"
+    ></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
 
-        gtag('config', 'UA-132662434-1');
+        gtag("config", "G-Z00DJP3K54");
     </script>
+    <body>
+        <header class="site-header">
+            <nav class="nav" aria-label="Primary navigation">
+                <a class="brand" href="#top" aria-label="Robert Sabirov home">
+                    <span class="brand-mark">rs</span>
+                    <span>Robert Sabirov</span>
+                </a>
+                <div class="nav-links">
+                    <a href="#skills">Skills</a>
+                    <a href="#experience">Experience</a>
+                </div>
+                <div class="nav-actions" aria-label="Profile links">
+                    <a
+                        class="icon-link"
+                        href="https://github.com/hydra13"
+                        rel="noreferrer"
+                        aria-label="GitHub"
+                    >
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path
+                                d="M12 .5a12 12 0 0 0-3.79 23.38c.6.11.82-.26.82-.58v-2.04c-3.34.73-4.04-1.42-4.04-1.42-.55-1.39-1.34-1.76-1.34-1.76-1.09-.75.08-.74.08-.74 1.21.09 1.85 1.25 1.85 1.25 1.07 1.84 2.82 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.66-.3-5.46-1.33-5.46-5.93 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23A11.5 11.5 0 0 1 12 5.78c1.02 0 2.05.14 3.01.4 2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.24 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.8 5.63-5.47 5.93.43.37.81 1.1.81 2.22v3.3c0 .32.22.7.83.58A12 12 0 0 0 12 .5Z"
+                            />
+                        </svg>
+                    </a>
+                    <a
+                        class="icon-link"
+                        href="https://www.linkedin.com/in/robert-sabirov/"
+                        rel="noreferrer"
+                        aria-label="LinkedIn"
+                    >
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path
+                                d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V8.98h3.42v1.57h.05a3.75 3.75 0 0 1 3.37-1.85c3.6 0 4.27 2.37 4.27 5.46v6.29ZM5.32 7.41a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13Zm1.78 13.04H3.54V8.98H7.1v11.47ZM22.22 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0Z"
+                            />
+                        </svg>
+                    </a>
+                    <a
+                        class="icon-link"
+                        href="https://t.me/hydra13"
+                        rel="noreferrer"
+                        aria-label="Telegram"
+                    >
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path
+                                d="M22.26 2.58c.36-.15.75.16.66.55l-3.43 17.13c-.09.47-.66.65-1.02.33l-5.2-4.3-2.66 2.57c-.29.28-.78.16-.89-.23l-1.77-5.84-5.03-1.55c-.5-.15-.54-.84-.06-1.05L22.26 2.58Zm-4.6 4.32-7.9 4.88c-.33.2-.48.61-.35.98l1.23 3.68.78-2.55c.05-.16.15-.3.28-.4l6.33-5.75c.43-.39.13-1.14-.37-.84Z"
+                            />
+                        </svg>
+                    </a>
+                    <a
+                        class="icon-link"
+                        href="mailto:rob.sabirov@gmail.com"
+                        aria-label="Email Robert Sabirov"
+                    >
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path
+                                d="M3.75 4.5h16.5A2.75 2.75 0 0 1 23 7.25v9.5a2.75 2.75 0 0 1-2.75 2.75H3.75A2.75 2.75 0 0 1 1 16.75v-9.5A2.75 2.75 0 0 1 3.75 4.5Zm16.5 2H3.75c-.13 0-.26.02-.37.07L12 12.25l8.62-5.68a1 1 0 0 0-.37-.07ZM3 8.37v8.38c0 .41.34.75.75.75h16.5c.41 0 .75-.34.75-.75V8.37l-8.45 5.57a1 1 0 0 1-1.1 0L3 8.37Z"
+                            />
+                        </svg>
+                    </a>
+                    <a
+                        class="button button-cv"
+                        href="./assets/CV-international-2.pdf"
+                        download
+                        >Download CV</a
+                    >
+                </div>
+            </nav>
+        </header>
 
-</head>
+        <main id="top">
+            <section class="hero section-shell" aria-labelledby="hero-title">
+                <div class="hero-copy">
+                    <p class="eyebrow">Go / Golang Backend Engineer</p>
+                    <h1 id="hero-title">
+                        Senior Go engineer with a <span>full-stack past</span>.
+                    </h1>
+                    <p class="lead">
+                        Software engineer focused on Go backend development,
+                        performance investigations, application security, and
+                        production-readiness across marketplace, fintech,
+                        infrastructure, and industrial software.
+                    </p>
 
-<body class="bg-dark">
-    <!-- Menu -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#">R. Sabirov</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavBar" aria-controls="mainNavBar"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="mainNavBar"">
-            <!-- <div class=" collapse
-                navbar-collapse" id="navbarsExample01"> -->
-                <ul class="navbar-nav mr-auto">
-                    <!--
-<li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
-    <div class="dropdown-menu" aria-labelledby="dropdown01">
-        <a class="dropdown-item" href="#projects">PomodoraApp</a>
-        <a class="dropdown-item" href="#projects">Python Examples</a>
-        <a class="dropdown-item" href="#projects">Notes</a>
-    </div>
-</li>
--->
-                    <!-- <button type="button" class="btn btn-secondary">Secondary</button> -->
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <!-- About Me -->
-    <div class="container">
-        <div class="card text-center" id="aboutme">
-            <div class="card-body">
-                <div class="row">
-                    <div class="col-sm-4 pr-sm-0">
-                        <img class="card-img-top card-img-bottom" src="img/ava-picture.jpg" alt="">
+                    <div class="stats" aria-label="Profile highlights">
+                        <div class="stat">
+                            <strong>14+</strong>
+                            <span
+                                >years across backend, frontend, infrastructure,
+                                and automation</span
+                            >
+                        </div>
+                        <div class="stat">
+                            <strong>Go</strong>
+                            <span
+                                >production services, PostgreSQL, gRPC, REST
+                                APIs</span
+                            >
+                        </div>
+                        <div class="stat">
+                            <strong>Security</strong>
+                            <span
+                                >threat modeling, risk analysis, Security
+                                Champion work</span
+                            >
+                        </div>
                     </div>
-                    <div class="col-sm-8 d-block card-body">
-                        <h5 class="card-title text-secondary">Robert Sabirov</h5>
-                        <p class="card-text text-dark">Hello everybody! Welcome to my personal page. Here you can find
-                            information about me, my skills and my experience.</p>
-                        <p class="card-text text-dark">My name is Robert and I'm 28 years old. I live in St.
-                            Petersburg, Russia.</p>
-                        <p class="card-text text-dark">
-                            I'm a Software and Web Developer. I have 5+ years of experience with programming:<br>basically: <b>Qt/C++;</b><br>
-                            from time to time: <b>Java, Python, Linux Shell(Bash), JavaScript, jQuery, HTML, CSS, PHP, WordPress, Bootstrap, ElasticSearch, MySQL, SQLite;</b><br>
-                            and administration OS (<b>Linux, Windows</b>).<br>Previously, I developed some special programs for Siemens Simatic S7-300 microcontrollers
-                            using C/C++, STL, SCL, FBD and C#.
+                </div>
+
+                <aside class="terminal" aria-label="Developer summary">
+                    <div class="terminal-bar" aria-hidden="true">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="terminal-body">
+                        <p><span class="prompt">$</span> whoami</p>
+                        <p class="terminal-value">Robert Sabirov / hydra13</p>
+
+                        <p><span class="prompt">$</span> focus --current</p>
+                        <p class="terminal-value">
+                            <span class="terminal-key">Go</span>, PostgreSQL,
+                            gRPC, REST, security-aware backend
+                        </p>
+
+                        <p><span class="prompt">$</span> experience --recent</p>
+                        <p class="terminal-value">
+                            big-tech backend, seller experience in delivery
+                            domain, sellers tariffs, internal APIs
+                        </p>
+
+                        <p>
+                            <span class="prompt">$</span> experience
+                            --previously
+                        </p>
+                        <p class="terminal-value">
+                            B2B fintech frontend with Node.js, Nest.js, React;
+                            SRE scripting in Python and TypeScript; team
+                            management; C++/Qt5 client-server apps
                         </p>
                     </div>
-                </div>
-            </div>
-        </div>
-    </div>
+                </aside>
+            </section>
 
-    <!-- Skills -->
-    <div class="container pt-3" id="skills">
-        <div class="card text-center">
-            <div class="card-body">
-                <h5 class="card-title text-secondary">Skills</h5>
-                <!-- <hr> -->
-                <div class="container more3yrs">
-                    <span class="text-secondary">more than 3 years experience:</span><br>
-                </div>
-                <hr>
-                <div class="container more1yrs">
-                    <span class="text-secondary">1-3 years experience:</span><br>
-                </div>
-                <hr>
-                <div class="container less1yrsFavorite">
-                    <span class="text-secondary">less than 1 year experience, want to develop:</span><br>
-                </div>
-                <hr>
-                <div class="container less1yrs">
-                    <span class="text-secondary">less than 1 year experience:</span><br>
+            <section
+                id="skills"
+                class="section-shell content-section"
+                aria-labelledby="skills-title"
+            >
+                <div class="section-heading">
+                    <h2 id="skills-title">Main Skills</h2>
+                    <p>
+                        Compact icon-style tiles for the technologies I use
+                        across backend, frontend, tooling, and systems work.
+                    </p>
                 </div>
 
-            </div>
-        </div>
-    </div>
-
-    <!-- Certificates -->
-
-    <div class="container  pt-3" id="certificates">
-        <div class="card text-center">
-            <div class="card-body">
-                <h5 class="card-title text-secondary">Certificates</h5>
-                <div class="container pl-3">
-                    <ul class="list-group list-group-flush list-serts">
-                    </ul>
+                <div class="skill-grid" aria-label="Technology stack">
+                    <div
+                        class="skill primary"
+                        title="Golang"
+                        aria-label="Golang"
+                    >
+                        <img
+                            class="go-wordmark"
+                            src="./assets/icons/go-wordmark.svg"
+                            alt=""
+                        />
+                    </div>
+                    <div
+                        class="skill"
+                        title="TypeScript"
+                        aria-label="TypeScript"
+                    >
+                        <img src="./assets/icons/typescript.svg" alt="" />
+                    </div>
+                    <div
+                        class="skill"
+                        title="JavaScript"
+                        aria-label="JavaScript"
+                    >
+                        <img src="./assets/icons/javascript.svg" alt="" />
+                    </div>
+                    <div class="skill" title="Python" aria-label="Python">
+                        <img src="./assets/icons/python.svg" alt="" />
+                    </div>
+                    <div class="skill" title="Node.js" aria-label="Node.js">
+                        <img src="./assets/icons/nodejs.svg" alt="" />
+                    </div>
+                    <div
+                        class="skill primary"
+                        title="PostgreSQL"
+                        aria-label="PostgreSQL"
+                    >
+                        <img src="./assets/icons/postgresql.svg" alt="" />
+                    </div>
+                    <div class="skill" title="React" aria-label="React">
+                        <img src="./assets/icons/react.svg" alt="" />
+                    </div>
+                    <div class="skill" title="Jest" aria-label="Jest">
+                        <img src="./assets/icons/jest.svg" alt="" />
+                    </div>
+                    <div class="skill" title="Git" aria-label="Git">
+                        <img src="./assets/icons/git.svg" alt="" />
+                    </div>
+                    <div class="skill" title="GitHub" aria-label="GitHub">
+                        <img
+                            class="icon-invert"
+                            src="./assets/icons/github.svg"
+                            alt=""
+                        />
+                    </div>
+                    <div class="skill" title="C++" aria-label="C++">
+                        <img src="./assets/icons/cplusplus.svg" alt="" />
+                    </div>
+                    <div class="skill" title="Qt" aria-label="Qt">
+                        <img src="./assets/icons/qt.svg" alt="" />
+                    </div>
+                    <div class="skill" title="Linux" aria-label="Linux">
+                        <img
+                            class="icon-invert"
+                            src="./assets/icons/linux.svg"
+                            alt=""
+                        />
+                    </div>
                 </div>
-            </div>
-        </div>
-    </div>
+            </section>
 
-    <!-- Contacts -->
-    <div class="container  pt-3 pb-3" id="contacts">
-        <div class="card text-center">
-            <div class="card-body">
-                <h5 class="card-title text-secondary">Contacts</h5>
-                <!-- <p class="card-text text-dark">E-mail: <a href="mailto:rob.sabirov@gmail.com" class="font-weight-bold text-info">rob.sabirov@yandex.com</a>
-                </p> -->
-                <a class="fab fa-facebook-square fa-3x text-secondary" href="https://www.facebook.com/robert.sabirov" target="_blank" title="facebook.com/robert.sabirov"></a>
-                <a class="fab fa-twitter-square fa-3x text-secondary" href="https://www.twitter.com/rob_sabirov" target="_blank" title="twitter.com/rob_sabirov"></a>
-                <a class="fab fa-github-square fa-3x text-secondary" href="https://github.com/hydra13/" target="_blank" title="github.com/hydra13"></a>
-                <a class="fas fa-envelope-square fa-3x text-secondary" href="mailto:rob.sabirov@gmail.com" target="_blank" title="rob.sabirov@gmail.com"></a>
-            </div>
-        </div>
-    </div>
+            <section
+                id="experience"
+                class="section-shell content-section"
+                aria-labelledby="experience-title"
+            >
+                <div class="section-heading">
+                    <h2 id="experience-title">Experience</h2>
+                    <p>
+                        Recent backend focus with a long full-stack,
+                        infrastructure, and systems background.
+                    </p>
+                </div>
 
+                <div class="experience-list">
+                    <article class="experience-item featured">
+                        <div>
+                            <h3>Back End Developer</h3>
+                            <p>Avito</p>
+                        </div>
+                        <time>Nov 2024 - Present</time>
+                        <p>
+                            Production Go services for delivery-related business
+                            logic, subsidies, seller tariffs, billing-adjacent
+                            flows, internal APIs, integrations, and
+                            security-sensitive backend logic.
+                        </p>
+                    </article>
 
-    <!-- Projects -->
-    <!--
-<div class="container  pt-3" id="projects">
-    <div class="card text-center">
-        <div class="card-body">
-            <h5 class="card-title text-secondary">Projects</h5>
-        </div>
-    </div>
-</div>
--->
+                    <article class="experience-item">
+                        <div>
+                            <h3>Frontend Developer</h3>
+                            <p>Avito</p>
+                        </div>
+                        <time>Apr 2023 - Oct 2024</time>
+                        <p>
+                            Seller-side delivery flows for desktop and mobile
+                            web using React, TypeScript, and Jest, then
+                            transitioned into Go backend development.
+                        </p>
+                    </article>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
-    <script src="./js/init.js"></script>
-    <script src="./js/documentReady.js"></script>
-</body>
+                    <article class="experience-item">
+                        <div>
+                            <h3>Independent Software Engineer</h3>
+                            <p>Sabir LTD</p>
+                        </div>
+                        <time>Apr 2011 - Present</time>
+                        <p>
+                            Consulting, mentoring, training, MVPs, prototypes,
+                            code review, architecture feedback, automation, and
+                            AI-assisted development workflow experiments.
+                        </p>
+                    </article>
 
+                    <article class="experience-item">
+                        <div>
+                            <h3>Senior Frontend Engineer</h3>
+                            <p>YooMoney</p>
+                        </div>
+                        <time>Sep 2021 - Apr 2023</time>
+                        <p>
+                            B2B payment scenarios in a regulated fintech
+                            environment with TypeScript, React, Jest, and
+                            Nest.js as a BFF layer.
+                        </p>
+                    </article>
+
+                    <article class="experience-item">
+                        <div>
+                            <h3>Developer in Infrastructure Team</h3>
+                            <p>Yandex</p>
+                        </div>
+                        <time>Jan 2020 - Aug 2021</time>
+                        <p>
+                            Internal services, developer tools, CLI utilities,
+                            npm packages, automation, ClickHouse, monitoring,
+                            metrics, dashboards, Node.js, TypeScript, and
+                            Python.
+                        </p>
+                    </article>
+
+                    <article class="experience-item">
+                        <div>
+                            <h3>Senior Software Engineer / Team Lead</h3>
+                            <p>STC LLC</p>
+                        </div>
+                        <time>Apr 2014 - Jan 2020</time>
+                        <p>
+                            C++/Qt desktop and network applications, Node.js
+                            services, SQL, Elasticsearch, internal dashboards,
+                            infrastructure automation, and technical
+                            coordination.
+                        </p>
+                    </article>
+
+                    <article class="experience-item">
+                        <div>
+                            <h3>Industrial Automation Software Engineer</h3>
+                            <p>Cold Express LTD</p>
+                        </div>
+                        <time>Mar 2012 - Mar 2014</time>
+                        <p>
+                            SCADA, PLC-based solutions, C++, C#, Siemens S7-300,
+                            TIA Portal, Step 7, SCL, FBD, WinCC, and
+                            operator-facing software.
+                        </p>
+                    </article>
+                </div>
+            </section>
+        </main>
+    </body>
 </html>
